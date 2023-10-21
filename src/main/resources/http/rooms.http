@@ -1,0 +1,27 @@
+// Room API
+
+GET {{url}}/rooms/1
+Authorization: Bearer {{token}}
+
+###
+
+// filter rooms by prize
+GET {{url}}/rooms/hotel/1?min-price=2000&max-price=5000
+Authorization: Bearer {{token}}
+
+###
+
+GET {{url}}/rooms/1
+Authorization: Bearer {{token}}
+
+###
+
+POST {{url}}/rooms/hotel/3
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "roomNumber": 112,
+  "roomPrice": 1150,
+  "roomType": "SINGLE"
+}
