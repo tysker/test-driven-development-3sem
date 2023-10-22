@@ -1,5 +1,3 @@
-[HOME](https://github.com/tysker/tdd-cicd-3sem/blob/92203e8e69f6a419f093de906176687597b8cb33/README.md)
-
 ## Kata 6: Banking kata
 
 Note: This is an advanced example where the solution requires knowledge of using a mocking framework. The possible solution can also have an elaborated design. Solve it only if you feel comfortable with mocking frameworks and designing your code.
