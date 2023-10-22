@@ -21,4 +21,4 @@ Notes:
 4. For numbers that are multiples of both three and five return “FizzBuzz”.
 
 
-[HOME](../../../README.md)
+[HOME](README.md)
