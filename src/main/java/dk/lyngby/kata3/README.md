@@ -13,7 +13,7 @@ indicating if the password is valid or not, and also a field with the possible v
 
 3. The validation function should handle multiple validation errors.
 
-* For example, “somepassword” should an error message: “Password must be at least 8 characters\nThe password must contain at least 2 numbers”
+* For example, “somepas” should an error message: “Password must be at least 8 characters\nThe password must contain at least 2 numbers”
 
 4. The password must contain at least one capital letter. If it is not met, then the following error message should be returned: “password must contain at least one capital letter”
 
