@@ -2,8 +2,9 @@
 
 
 Create a function that can be used as a validator for the password field of a user registration form. The validation 
-function takes a string as an input and returns a validation result. The validation result should contain a boolean 
-indicating if the password is valid or not, and also a field with the possible validation errors.
+function takes a string as an input and returns a validation result. 
+
+The validation result should contain a boolean indicating if the password is valid or not, and also a field with the possible validation errors.
 
 **Requirements**
 

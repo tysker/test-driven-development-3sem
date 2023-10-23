@@ -1,10 +1,16 @@
 package dk.lyngby.kata2;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class StringCalculatorTest {
+
+    @BeforeAll
+    void setup(){
+        System.out.println("Before all Tests");
+    }
 
     StringCalculator calc = new StringCalculator();
 
