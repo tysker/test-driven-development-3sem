@@ -29,6 +29,4 @@ public class Search {
         return this.cities.stream()
                 .filter(city -> city.toLowerCase().contains(input.toLowerCase())).toList();
     }
-
-
 }
