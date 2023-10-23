@@ -17,21 +17,21 @@ class PasswordTest {
     @Test
     public void passwordIsValid() {
         String password = "!Abcdefghg12";
-        assertEquals("Password is valid", pass.validatePassword(password).getErrorMessage());
+        assertEquals("Password is valid", pass.validatePassword(password).errorMessage());
         assert(pass.validatePassword(password).isValid());
     }
 
     @Test
     public void passwordHasToBeMin8InLength() {
         String password = "!A12";
-        assertEquals("Password must be at least 8 characters", pass.validatePassword(password).getErrorMessage());
+        assertEquals("Password must be at least 8 characters", pass.validatePassword(password).errorMessage());
         assertFalse(pass.validatePassword(password).isValid());
     }
 
     @Test
     public void passwordHasToContainDigits() {
         String password = "!Abcdefghg";
-        assertEquals("The password must contain at least 2 numbers", pass.validatePassword(password).getErrorMessage());
+        assertEquals("The password must contain at least 2 numbers", pass.validatePassword(password).errorMessage());
         assertFalse(pass.validatePassword(password).isValid());
     }
 
@@ -40,7 +40,7 @@ class PasswordTest {
         String password = "!A";
         String errorMessage = "Password must be at least 8 characters\nThe password must contain at least 2 numbers";
 
-        assertEquals(errorMessage, pass.validatePassword(password).getErrorMessage());
+        assertEquals(errorMessage, pass.validatePassword(password).errorMessage());
         assertFalse(pass.validatePassword(password).isValid());
     }
 
@@ -49,7 +49,7 @@ class PasswordTest {
         String password = "!a12bcdefg";
         String errorMessage = "Password must contain at least one capital letter";
 
-        assertEquals(errorMessage, pass.validatePassword(password).getErrorMessage());
+        assertEquals(errorMessage, pass.validatePassword(password).errorMessage());
         assertFalse(pass.validatePassword(password).isValid());
     }
 
@@ -58,7 +58,7 @@ class PasswordTest {
         String password = "A12bcdefg";
         String errorMessage = "Password must contain at least one special character";
 
-        assertEquals(errorMessage, pass.validatePassword(password).getErrorMessage());
+        assertEquals(errorMessage, pass.validatePassword(password).errorMessage());
         assertFalse(pass.validatePassword(password).isValid());
     }
 
