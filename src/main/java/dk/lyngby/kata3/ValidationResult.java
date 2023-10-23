@@ -5,10 +5,10 @@ import lombok.Getter;
 @Getter
 public class ValidationResult {
 
-    private String errorMessage;
     private boolean isValid;
+    private String errorMessage;
 
-    public ValidationResult(String errorMessage, boolean isValid) {
+    public ValidationResult(boolean isValid, String errorMessage) {
         this.errorMessage = errorMessage;
         this.isValid = isValid;
     }
