@@ -20,7 +20,7 @@ Notes:
 * “1,2\n3” should return “6”
 * “2,\n3” is invalid, but no need to clarify it with the program
 
-4. Add validation to not to allow a separator at the end
+4. Add validation not to allow a separator at the end
 
 * For example “1,2,” should return an error (or throw an exception)
 

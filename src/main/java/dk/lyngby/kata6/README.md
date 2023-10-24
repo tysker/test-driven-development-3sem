@@ -1,6 +1,7 @@
 ## Kata 6: Banking kata
 
-Note: This is an advanced example where the solution requires knowledge of using a mocking framework. The possible solution can also have an elaborated design. Solve it only if you feel comfortable with mocking frameworks and designing your code.
+Note: This is an advanced example where the solution requires knowledge of using a mocking framework. The possible solution can also have an elaborated design. 
+Solve it only if you feel comfortable with mocking frameworks and designing your code.
 
 Create a simple bank application with features of depositing, withdrawing, and printing account statements.
 
