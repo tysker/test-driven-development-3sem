@@ -10,6 +10,7 @@
 ### Kata 5: [Bar Codes kata](src/main/java/dk/lyngby/kata5/README.md)
 ### Kata 6: [Banking kata](src/main/java/dk/lyngby/kata6/README.md)
 ### Kata 7: [Greeting kata](src/main/java/dk/lyngby/kata7/README.md)
+### Kata 8: [Roman Numerals Kata](src/main/java/dk/lyngby/kata8/README.md)
 
 ## Links to TDD Katas
 
